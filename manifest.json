@@ -1,0 +1,38 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Poggy's Luminous Dreams Graphic Pack (Shader)",
+        "description": "Shader by XxPoggyisLitxX, PBR Textures by xKingDark & XxPoggyisLitxX",
+        "uuid": "d1a398e8-c566-4f1e-a760-6076f1e4c9ef",
+        "version": [ 1, 0, 7 ],
+        "min_engine_version": [ 1, 20, 12 ]
+    },
+    "modules": [
+		{
+			"description": "AGFX",
+			"type": "resources",
+			"uuid": "5a1bb411-11ef-4eeb-9eb6-ca1c4e823d09",
+			"version": [ 1, 0, 0 ]
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "no_glowing_ores",
+			"name": "No Glowing Ores",
+			"memory_tier": 0
+		},
+		{
+			"folder_name": "reflective_ores",
+			"name": "Reflective Ores",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "default",
+			"name": "Default Experience (Recommended)",
+			"memory_tier": 2
+		}
+	],
+	"capabilities": [
+		"pbr"
+	]
+}
